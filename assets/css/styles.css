@@ -390,6 +390,8 @@ section.tight { padding: clamp(40px, 6vw, 64px) 0; }
 .footer-social svg { width: 20px; height: 20px; fill: currentColor; }
 .footer-bottom { border-top: 1px solid rgba(255,255,255,.12); padding-top: 22px; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: center; }
 .footer-bottom p { margin: 0; color: var(--on-blue-muted); font-size: var(--step--1); }
+.footer-bottom p a { color: var(--gold); text-decoration: underline; text-underline-offset: 2px; }
+.footer-bottom p a:hover { color: var(--gold-glow); }
 .footer-bottom .fb-links { display: flex; gap: 18px; flex-wrap: wrap; }
 .footer-bottom .fb-links a { color: var(--on-blue-muted); font-size: var(--step--1); }
 .footer-bottom .fb-links a:hover { color: var(--gold); }
