@@ -376,8 +376,8 @@ section.tight { padding: clamp(40px, 6vw, 64px) 0; }
 /* ---------- Footer (deep blue) ---------- */
 .site-footer { background: var(--royal-900); color: #fff; padding: clamp(44px,6vw,68px) 0 clamp(28px,4vw,40px); }
 .footer-top { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: clamp(28px,4vw,48px); margin-bottom: 36px; }
-.footer-brand .f-logo { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; }
-.footer-brand .f-logo img { height: 48px; width: auto; }
+.footer-brand .f-logo { display: inline-flex; align-items: center; margin-bottom: 18px; background: #fff; border-radius: 12px; padding: 10px 16px; }
+.footer-brand .f-logo img { height: 44px; width: auto; display: block; }
 .footer-brand .f-name { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; color: #fff; font-size: var(--step-1); line-height: 1.1; }
 .footer-brand p { color: var(--on-blue-muted); font-size: var(--step--1); max-width: 38ch; }
 .footer-col h2, .footer-col .footer-h { color: #fff; font-size: var(--step-0); font-weight: 700; letter-spacing: -.01em; margin: 0 0 14px; }
