@@ -1,0 +1,6 @@
+# Rotary Club of East Lake Sunrise
+# We want to be found, including by AI answer engines. Allow everyone.
+User-agent: *
+Allow: /
+
+Sitemap: https://eastlakerotary.org/sitemap.xml
