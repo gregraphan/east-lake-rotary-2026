@@ -318,7 +318,7 @@ section.tight { padding: clamp(40px, 6vw, 64px) 0; }
 .chair-list li b { font-family: 'Plus Jakarta Sans', sans-serif; color: var(--ink); font-weight: 700; }
 
 /* Award row */
-.award-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; max-width: 900px; margin: 0 auto; }
+.award-row { display: grid; grid-template-columns: repeat(4,1fr); gap: 18px; max-width: 960px; margin: 0 auto; }
 .award { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; text-align: center; box-shadow: var(--shadow-sm); }
 .award .a-medal { width: 46px; height: 46px; margin: 0 auto 12px; border-radius: 50%; background: rgba(247,168,27,.16); color: var(--gold-600); display: flex; align-items: center; justify-content: center; }
 .award .a-title { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 0 0 6px; font-weight: 700; }
@@ -414,7 +414,7 @@ section.tight { padding: clamp(40px, 6vw, 64px) 0; }
   .roster { grid-template-columns: repeat(3,1fr); }
   .board-grid { grid-template-columns: repeat(2,1fr); }
   .sponsor-wall { grid-template-columns: repeat(4,1fr); }
-  .award-row { grid-template-columns: 1fr; max-width: 460px; }
+  .award-row { grid-template-columns: repeat(2,1fr); max-width: 520px; }
 }
 @media (max-width: 920px) {
   .site-header .container { flex-wrap: wrap; }
